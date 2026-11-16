@@ -1,0 +1,58 @@
+{
+ "slots": {
+  "calm": {
+   "file": "/home/claude/music_src/biteme/Lotus Pond - Loop.wav",
+   "loop_all": true,
+   "transpose": -2,
+   "target_db": -18
+  },
+  "stage1": {
+   "file": "/home/claude/music_src/crow/从此江渚春水尽(配乐loop版).wav",
+   "from": 0,
+   "bars": 49,
+   "transpose": -2
+  },
+  "stage3": {
+   "file": "/home/claude/music_src/crow/从此江渚春水尽（氛围版）.wav",
+   "from": 32,
+   "bars": 24,
+   "transpose": -2
+  },
+  "boss": {
+   "file": "/home/claude/music_src/biteme/Dragon Dance - Loop.wav",
+   "loop_all": true,
+   "transpose": 0
+  },
+  "ending": {
+   "file": "/home/claude/music_src/crow/姽婳剑歌.wav",
+   "from": 0,
+   "bars": 50,
+   "free": true,
+   "bpm": 120,
+   "offset": 0,
+   "tail": 0,
+   "target_db": -16
+  },
+  "tutor": {
+   "alias": "calm"
+  }
+ },
+ "credits": [
+  {
+   "by": "乌鸦Producer",
+   "line": "Music by 乌鸦Producer",
+   "works": [
+    "从此江渚春水尽",
+    "姽婳剑歌"
+   ]
+  },
+  {
+   "by": "BiteMe Games",
+   "line": "Lotus Pond · Dragon Dance — BiteMe Games (CC0)",
+   "works": [
+    "Lotus Pond",
+    "Dragon Dance"
+   ]
+  }
+ ]
+}

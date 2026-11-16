@@ -1,0 +1,12 @@
+node_modules/
+__pycache__/
+test/*.png
+test/*.jpg
+test/*.out
+test/*.wav
+test/*.json
+dist/old.html
+dist/dview.html
+dist/audiotest.html
+dragon_preview.jpg
+*.log
