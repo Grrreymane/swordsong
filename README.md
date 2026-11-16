@@ -22,6 +22,9 @@ node build.mjs src/main.js   # 生成 dist/index.html
 - `test/`：无头浏览器测试脚本（Playwright）。包括机器人通关、NaN / 黑框扫描、看龙工具 `dview.js` 等。
 - `docs/剑歌行.md`：设计与技术文档。
 
+## 上 AIWANNA
+已上线：https://www.aiwanna.games/games/d45dc5279cee3ed8f989afb8b6051df8-7eb78071 。音乐超过静态上传的 3 MB，走平台托管：`npm run build:web`（只把 `dist/index.html` 和 `dist/music/` 拷进 `web/`）→ 1GP MCP `build_vercel_game`（`build_script: "build:web"`，`frontend_output_directory: "web"`）→ `publish_game`（`deployment_target: "vercel"`，带 `1gp-kit/game.json` 里的标题和简介）。商店物料在 `1gp-kit/`，封面由 `cover.html` 在 `cover-base.png` 上叠字渲染。
+
 ## 单文件版
 `dist/swordsong-single.html`（约 9 MB）把音乐以 base64 内嵌在页面里，一个文件就能在任何地方打开游玩，适合只接受单个 HTML 的平台。重新生成：`node build.mjs src/main.js --single`。
 
