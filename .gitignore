@@ -10,3 +10,5 @@ dist/dview.html
 dist/audiotest.html
 dragon_preview.jpg
 *.log
+web/
+.1gp/

@@ -1,0 +1,27 @@
+{
+  "title": "剑歌行 · Swordsong",
+  "description": "水墨仙侠御剑音游。每个灵物都是一个音符：朱砂圈收紧的那一刻，点或划过它，一剑斩落，一剑一音；按住一路划过去还能连斩。穿过云海、青绿、灯海，直入龙渊：先斩龙背上的六道封印，再斩碎被侵染的龙珠，黑龙化为金龙升天。手机竖屏为主，支持多指；PC 用鼠标或 Z X C V 等键。全程无字，第一次进入有无字教学。\n\nMusic by 乌鸦Producer · BiteMe Games",
+  "genre": "rhythm",
+  "tags": ["水墨国风", "仙侠", "御剑", "中国龙", "触屏划斩"],
+  "maker": {
+    "tools": ["Claude"],
+    "orientation": "portrait",
+    "session": "short",
+    "notes": "Music by 乌鸦Producer · BiteMe Games"
+  },
+  "release": {
+    "version": "1.0.0",
+    "title": "首发",
+    "notes": "首发。四段关卡：云海、青绿、灯海、龙渊；有中国龙 Boss；配乐是古风录音曲（乌鸦Producer、BiteMe Games）；支持手机多指和 PC 键鼠。"
+  },
+  "cover": "1gp-kit/cover.png",
+  "coverBase": "1gp-kit/cover-base.png",
+  "coverSource": "1gp-kit/cover.html",
+  "screenshots": [
+    "1gp-kit/shots/01-yunhai.jpg",
+    "1gp-kit/shots/02-denghai.jpg",
+    "1gp-kit/shots/03-long.jpg",
+    "1gp-kit/shots/04-longzhu.jpg",
+    "1gp-kit/shots/05-jinlong.jpg"
+  ]
+}
