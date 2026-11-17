@@ -14,6 +14,7 @@ import { Level, W } from './level.js';
 import { Hud } from './hud.js';
 import { AudioEngine } from './audio.js';
 import { drawSeal, brushStrokeURL } from './textures.js';
+import { Board } from './board.js';
 
 const $ = id => document.getElementById(id);
 const store = {
@@ -288,6 +289,7 @@ class Game {
     this.wipeTo(1, 0.55, () => {
       this.hideScreens();
       this.resetRun();
+      Board.start();   // a new round on the AIWANNA leaderboards (only inside the platform's player)
       this.setState('play');
       this.hud.showDom(true); this.hud.setVisible(true); this.hud.dim(false);
       this.wipeTo(0, 0.9);
@@ -377,6 +379,7 @@ class Game {
     this.setState('results');
     this.hud.showDom(false); this.hud.dim(false);
     const st = this.stats, acc = this.accuracy();
+    if (this.victory) Board.finish(acc, this.maxCombo); else Board.drop();
     let rank;
     if (this.victory) rank = acc >= 0.93 && st.miss <= 3 ? '神' : acc >= 0.85 ? '绝' : acc >= 0.72 ? '妙' : acc >= 0.55 ? '良' : '凡';
     else rank = acc >= 0.7 ? '良' : '凡';
