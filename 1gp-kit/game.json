@@ -5,7 +5,7 @@
   "tags": ["水墨国风", "仙侠", "御剑", "中国龙", "触屏划斩"],
   "maker": {
     "tools": ["Claude"],
-    "orientation": "portrait",
+    "orientation": "responsive",
     "session": "short",
     "notes": "Music by 乌鸦Producer · BiteMe Games"
   },
